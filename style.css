@@ -36,16 +36,15 @@ ol li {
 }
 
 .button {
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     background-color: #3498db;
     color: white;
     padding: 10px 20px;
-    margin: 20px 0;
     text-decoration: none;
     border-radius: 5px;
-
+    
     /* center the button */
     width: 100px;
     margin: 20px auto;
