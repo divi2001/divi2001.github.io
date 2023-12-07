@@ -41,14 +41,15 @@ ol li {
 
 .button {
     display: block;
-    width: 200px;
-    height: 45px;
+    width: 300px; /* increase width */
+    height: 60px; /* increase height */
     margin: 20px auto;
     background-color: #007bff;
     color: #ffffff;
     border-radius: 5px;
     text-align: center;
-    line-height: 45px;
+    line-height: 60px; /* increase line height to match new height */
+    font-size: 20px; /* increase font size */
     font-weight: bold;
     text-decoration: none;
     transition: background-color 0.3s ease;
